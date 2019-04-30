@@ -1,0 +1,45 @@
+* {
+	font-family: Arial, san-serif;
+	box-sizing: border-box;
+}
+body {
+	background-color: tomato;
+	margin: 0 auto;
+}
+.mainNav {
+	background-color: black;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	text-align: center;
+}
+.mainNav a {
+	font-size: 30px;
+	color: white;
+	padding: 20px;
+	text-decoration: none;
+	display: inline-block;
+}
+.mainNav a:hover {
+	background-color: orange;
+	color: black;
+}
+.mainNav .icon {
+	display: none;
+}
+@media screen and (max-width: 600px) {
+	.mainNav a {display: none;}
+	.mainNav a.icon {display: block; float: right;}
+}
+@media screen and (max-width: 600px) {
+	.mainNav.responsive {position: relative;}
+	.mainNav.responsive .icon {position: absolute; 
+		top: 0;
+		right: 0;}
+	.mainNav.responsive a {
+		display: block;
+		text-align: center;
+	}
+}
+.responsive
