@@ -1,5 +1,5 @@
 * {
-	font-family: Arial, sans-serif;
+	font-family: Futura, sans-serif;
 	box-sizing: border-box;
 }
 
@@ -9,12 +9,12 @@ body {
 }
 
 .mainNav {
-	background-color: #fffdd0;
+	background-color: #F0EFE9;
 	width: 100%;
 	position: sticky;
 	top: 0px;
 	z-index: 1000;
-	text-align: left;
+	opacity: .9;
 }
 
 .mainNav *{
@@ -27,11 +27,17 @@ body {
 }
 
 .mainNav a:hover {
-	background-color: black;
+	background-color: #2b264f;
+	color: white;
 }
 
 .mainNav .icon {
 	display: none;
+	color: white;
+	background-color: #F0EFE9;
+	position: absolute;
+
+
 }
 
 @media screen and (max-width: 600px){
