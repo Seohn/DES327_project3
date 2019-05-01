@@ -1,64 +1,43 @@
 <!DOCTYPE html>
 <html>
-
-	<head>
-		<title>Quickly USA</title>
-		
-		<link rel="stylesheet" type="text/css" href="css/quicklystyles.css"/>
-
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	</head>
-	
-	<body>
-		<nav class="mainNav" id="responsiveNav">
-
-			<a href="#">Home</a>
-			<a href="#">Menu</a>
-			<a href="#">About Us</a>
-			<a href="#">Find Us</a>
-			<a href="#">Delivery</a>
-			<a href="#">Contact</a>
-			<a href="javascript: void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-			
-		</nav>
-
-
-
+<head>
+	<title>Quickly USA</title>
+	<link rel="stylesheet" type="text/css" href="css/quicklystyles.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<nav class="mainNav" id="responsiveNav">
+		<a href="#">Home</a>
+		<a href="#">Menu</a>
+		<a href="#">About Us</a>
+		<a href="#">Find Us</a>
+		<a href="#">Delivery</a>
+		<a href="#">Contact</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+	</nav>
 	<script>
 		function myFunction() {
-		
 		var x = document.getElementById("responsiveNav");
-
 		if (x.className === "mainNav") {
 			x.className += " responsive";
 		} else {
-
 			x.className = "mainNav";
 		}
 		}
-
-	</script>	
-
-		
-
-		<main>
-		</main>
-
-		<footer>
-		</footer>
-
-
-	</body>
-
-
-
-
-
-
-
-
-
-
+	</script>
+	<div class="main">
+		<div class="captionRight">With our fresh, healthy and exciting array of drinks, QUICKLY whips up delicious flavors and textures to tickle the taste buds of all ages. We have healthy fruit shakes made from natural fruit puree as well as blended drinks with pearls, pudding and other add-ons that are meant to quench everyone's thirst QUICKLY!</div>
+	</div>
+	<div class="Menu">
+		<div class="captionLeft">Looking for something fun, refreshing and exciting? We have everything to QUICKLY fill you up, quench your thirst, tickle your taste buds, and satisfy your cravings. Browse through our exciting array of drinks and refreshments, and explore what QUICKLY has to offer. With over 50 flavors to choose from, you are sure to find one that suits your taste.</div>
+	</div>
+	<div class="locationDelivery">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.934966888676!2d-122.47903238540391!3d37.721204323014234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7db16232041f%3A0x22025a3c29af7a3b!2sQuickly!5e0!3m2!1sen!2sus!4v1556751107578!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<div class="captionRight">Looking for fresh and exciting experiences near you? Need a way to quench your cravings QUCIKLY?! Check out one of our US locations! We have stores open all across California, We are listed in yelp and have available Door Dash and Uber Eats services  at select locations!</div>
+	</div>
+	<div class="about">
+		<div class="captionLeft">Founded by Nancy Yang in Taiwan, Quickly was created with the goal of founding an Asian-Fusion café for an international customer base. Quickly's goal is to provide its customers with fresh, exciting and fun products unique to our franchise. We are recognized as largest Boba chain in the United States and offer frozen yogurt, egg puffs and Banh Mi at select locations.</div>
+	</div>
+</body>
 </html>
 
