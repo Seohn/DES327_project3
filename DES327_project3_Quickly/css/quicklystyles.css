@@ -8,6 +8,14 @@ body {
 	margin: 0;
 }
 
+.captionLeft{
+
+}
+
+.captionRight{
+
+}
+
 .mainNav {
 	background-color: #F0EFE9;
 	width: 100%;
@@ -33,9 +41,10 @@ body {
 
 .mainNav .icon {
 	display: none;
-	color: white;
+	color: #2b264f;
 	background-color: #F0EFE9;
-	position: absolute;
+	position: right;
+	height: 70px;
 
 
 }
