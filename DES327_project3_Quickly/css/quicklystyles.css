@@ -1,5 +1,5 @@
 * {
-	font-family: Futura, sans-serif;
+	font-family: P22 Underground, sans-serif;
 	box-sizing: border-box;
 }
 
@@ -9,11 +9,71 @@ body {
 }
 
 .captionLeft{
-
+	text-align: left;
+	font-family: futura;
+	font-size: 14px;
 }
 
 .captionRight{
+	text-align: right;
+	font-family: futura;
+	font-size: 14px
+}
 
+.mainImg{
+
+}
+
+.menuImg{
+
+}
+
+.locationDeliveryImg{
+
+}
+
+.aboutImg{
+
+}
+
+.captionBottom{
+
+}
+
+.dropdown{
+	float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn{
+	font-size: 18px;
+  color: #2b264f;
+  background-color: #F0EFE9;
+  font-family: Futura;
+}
+
+.dropdown-content{
+	 display: none;
+  position: absolute;
+  background-color: #F0EFE9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0pX
+  z-index: 1
+}
+
+.dropdown-content a {
+  float: none;
+  color: #2b264f;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #F0EFE9;
+}
+
+.dropdown:hover .dropdown-content {
+  display: none;
 }
 
 .mainNav {
@@ -26,7 +86,7 @@ body {
 }
 
 .mainNav *{
-	font-size: 25px;
+	font-size: 18px;
 	color: #2b264f;
 	padding: 20px;
 	text-decoration: none;
@@ -44,7 +104,7 @@ body {
 	color: #2b264f;
 	background-color: #F0EFE9;
 	position: right;
-	height: 70px;
+	height: 61.5px; 
 
 
 }
