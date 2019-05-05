@@ -20,61 +20,86 @@ body {
 	font-size: 14px
 }
 
+.captionBottom{
+	text-align: center;
+	font-family: futura;
+	font-size: 14px;
+
+
+}
+
+.overlay{
+	opacity: .75;
+	width: 100%;
+	max-height: 90%;
+}
+
 .mainImg{
+	background-image: ;
+	width: 100%;
+	max-height: 90%;
 
 }
 
 .menuImg{
+	background-image: ;
+	width: 100%;
+	max-height: 90%;
 
 }
 
 .locationDeliveryImg{
-
+	background-image: ;
+	width: 100%;
+	max-height: 90%;
 }
 
 .aboutImg{
+	background-image: ;
+	width: 100%;
+	max-height: 90%;ss
 
 }
 
-.captionBottom{
-
-}
-
-.dropdown{
-	float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn{
-	font-size: 18px;
-  color: #2b264f;
+.dropbtn {
   background-color: #F0EFE9;
-  font-family: Futura;
+  color: white;
+  padding: 0;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
 
-.dropdown-content{
-	 display: none;
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2b264f;
+  color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
   position: absolute;
-  background-color: #F0EFE9;
+  background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0pX
-  z-index: 1
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .dropdown-content a {
-  float: none;
-  color: #2b264f;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
   display: block;
-  text-align: left;
 }
 
-.dropdown-content a:hover {
-  background-color: #F0EFE9;
-}
+.dropdown-content a:hover {background-color: #f1f1f1}
 
-.dropdown:hover .dropdown-content {
-  display: none;
-}
+.show {display:block;}
+
 
 .mainNav {
 	background-color: #F0EFE9;
@@ -83,12 +108,14 @@ body {
 	top: 0px;
 	z-index: 1000;
 	opacity: .9;
+	height: 80px
+
 }
 
 .mainNav *{
 	font-size: 18px;
 	color: #2b264f;
-	padding: 20px;
+	padding: 15px;
 	text-decoration: none;
 	display: inline-block;
 
@@ -127,4 +154,5 @@ body {
 	}
 }
 
+.show{ display: block; }
 

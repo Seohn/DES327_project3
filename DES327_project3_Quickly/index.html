@@ -9,13 +9,14 @@
 	<nav class="mainNav" id="responsiveNav">
 		<a href="#">Home</a>
 		<div class="dropdown">
-			<button class="dropbtn">Menu<i class="fa fa-caret-down"><i/></button>
-			<div class="dropdown-content">
-				<a href="Drinks"></a>
-				<a href="Food"></a>
-				<a href="Desserts"></a>
-			</div>
-		</div>
+  			<buttonclass="dropbtn" onclick="myFunction()">Menu</button>
+  		
+ 			 <div id="myDropdown" class="dropdown-content">
+				   <a href="#findus">Drinks</a>
+				   <a href="#aboutus">Food</a>
+				   <a href="#contacts">Desserts</a>
+  			</div>
+  		</div>
 		<a href="#">About Us</a>
 		<a href="#">Find Us</a>
 		<a href="#">Delivery</a>
@@ -31,6 +32,27 @@
 			x.className = "mainNav";
 		}
 		}
+
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+		function myFunction() {
+  		document.getElementById("myDropdown").classList.toggle("show");
+		}
+
+// Close the dropdown if the user clicks outside of it
+		window.onclick = function(event) {
+  		if (!event.target.matches('.dropbtn')) {
+    	var dropdowns = document.getElementsByClassName("dropdown-content");
+    	var i;
+    	for (i = 0; i < dropdowns.length; i++) {
+      	var openDropdown = dropdowns[i];
+     	 if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+     	 }
+    	}
+  		}
+		}
+
 	</script>
 	<div class="mainImg">
 		<div class="captionRight">With our fresh, healthy and exciting array of drinks, QUICKLY whips up delicious flavors and textures to tickle the taste buds of all ages. We have healthy fruit shakes made from natural fruit puree as well as blended drinks with pearls, pudding and other add-ons that are meant to quench everyone's thirst QUICKLY!</div>
