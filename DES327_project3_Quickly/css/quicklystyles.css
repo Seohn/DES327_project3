@@ -73,10 +73,11 @@ body {
 .dropbtn:hover, .dropbtn:focus {
   background-color: #2b264f;
   color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
 }
 
 .dropdown {
-  position: relative;
+  position: none;
   display: inline-block;
 }
 
@@ -108,7 +109,8 @@ body {
 	top: 0px;
 	z-index: 1000;
 	opacity: .9;
-	height: 80px
+	height: 60px;
+	padding-top: 5px;
 
 }
 
@@ -124,6 +126,7 @@ body {
 .mainNav a:hover {
 	background-color: #2b264f;
 	color: white;
+	height: 60px;
 }
 
 .mainNav .icon {
