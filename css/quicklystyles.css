@@ -188,7 +188,7 @@ body {
 .mainImg {
   background-image: url("../images/quickly_banner.jpg");
   min-height: 800px;
-  background-position: center;
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -209,7 +209,7 @@ body {
 }
 
 .menuImg:hover .overlay {
-	opacity: 1;
+	opacity: .75;
 }
 
 @media screen and (max-width: 600px){
