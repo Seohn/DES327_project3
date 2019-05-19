@@ -41,6 +41,7 @@ body {
 
 
 .overlay{
+	font-family: futura
 	color: #2b264f;
 	position: absolute;
 	top: 0;
@@ -49,7 +50,7 @@ body {
 	left: 0;
 	opacity: 0;
 	width: 100%;
-	height: 100%;
+	height: 92.5%;
 	background-color: #F0EFE9;
 	transition:.5s ease;
 	background-image: url(../images/header/quickly_text-4.png );
@@ -120,12 +121,12 @@ body {
 
 .logo{
 	float: right;
-    width: 20%;
+    width: 12%;
     height: auto;
     right: 20px;
     z-index: 1001;
-    bottom: 40px;
-    position:;
+    bottom: 10px;
+    position: relative;
 
 }
 
@@ -181,8 +182,6 @@ body {
 }
 
 
-
-
 .menuImg:hover .overlay {
 	opacity: .75;
 }
@@ -198,12 +197,20 @@ body {
 	.mainNav.responsive {position: relative;}
 	.mainNav.responsive .icon {position: absolute;
 		top: 0;
-		right: 0;}
+		left: 0;}
 
 	.mainNav.responsive a{
 		display: block;
 		text-align: center;
+		background-color: white;
 	}
+	.mainNav.responsive img.logo{
+		display: none;
+	}
+	.mainNav a:hover {
+	background-color: #2b264f;
+	color: white;
+	height: 60px;
 }
 
 @media only screen and (max-width: 600px){
