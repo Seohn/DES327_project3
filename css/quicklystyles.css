@@ -1,5 +1,5 @@
 * {
-	font-family: P22 Underground, sans-serif;
+	font-family: P22 Underground bold, sans-serif;
 	box-sizing: border-box;
 	text-decoration: none;
 }
@@ -26,10 +26,19 @@ body {
 	font-size: 14px;
 }
 
-.caption{
-	position: relative;
-	width: 100%; 
- }
+.divBody{
+	position:relative;
+
+}
+
+.bodyText{
+	color:#2b264f;background-color:white;
+	text-align:center;
+	padding:15px 15px;
+	text-align: justify; 
+	letter-spacing: .5px;
+}
+
 
 .overlay{
 	color: #2b264f;
@@ -48,7 +57,7 @@ body {
 
 .menuImg{
 	background-image: url("../images/quickly_edit_2.jpg");
-  	min-height: 100%;
+  	min-height: 600px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -73,48 +82,13 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-
 }
 
-.dropbtn {
-  background-color: #F0EFE9;
-  color: white;
-  padding: 0;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+.h1{
+	text-align: justify;
+	font-size: 14px;
 }
 
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #2b264f;
-  color: white;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
-}
-
-.dropdown {
-  position: none;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.show {display:block;}
 
 .text{
   top: 50%;
@@ -146,17 +120,18 @@ body {
 
 .logo{
 	float: right;
-    width: 175px;
-    height: 125px;
-    position: relative;
+    width: 20%;
+    height: auto;
     right: 20px;
     z-index: 1001;
-    opacity: 100%;
-    bottom: 10px;
+    bottom: 40px;
+    position:;
+
 }
 
 .mainNav {
 	background-color: #F0EFE9;
+	background-size: cover;
 	width: 100%;
 	position: sticky;
 	top: 0px;
@@ -167,7 +142,7 @@ body {
 }
 
 .mainNav *{
-	font-size: 18px;
+	font-size: 20px;
 	color: #2b264f;
 	padding: 15px;
 	text-decoration: none;
@@ -185,11 +160,11 @@ body {
 	display: none;
 	color: #2b264f;
 	background-color: #F0EFE9;
-	position: right;
+	position: left;
 	height: 60px;
 }
 
-.mainImg, .menuImg, .locationImg, .aboutImg {
+.mainImg, .menuImg, .locationImg, .aboutImg, .overlay {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -212,14 +187,14 @@ body {
 	opacity: .75;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 900px){
 	.mainNav a {display: none;}
-	.mainNav a.icon {display: block; float: right;}
+	.mainNav a.icon {display: block; float: left;}
 
 }
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 900px){
 	.mainNav.responsive {position: relative;}
 	.mainNav.responsive .icon {position: absolute;
 		top: 0;
@@ -232,7 +207,7 @@ body {
 }
 
 @media only screen and (max-width: 600px){
-  .mainImg, .menuImg, .locationImg, .aboutImg{
+  .mainImg, .menuImg, .locationImg, .aboutImg, .overlay{
     background-attachment: scroll;
   }
 
