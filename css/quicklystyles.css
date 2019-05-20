@@ -1,5 +1,5 @@
 * {
-	font-family: P22 Underground bold, sans-serif;
+	font-family: p22 Underground;
 	box-sizing: border-box;
 	text-decoration: none;
 }
@@ -8,22 +8,10 @@ body {
 	margin: 0;
 }
 
-.captionLeft{
-	text-align: left;
-	font-family: p22 Underground;
-	font-size: 14px;
-}
-
-.captionRight{
-	text-align: right;
-	font-family: p22 Underground;
-	font-size: 14px
-}
-
-.captionBottom{
-	text-align: center;
-	font-family: p22 Underground;
-	font-size: 14px;
+h1{
+	font-family: scriptorama-tradeshow-jf, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 .divBody{
@@ -32,7 +20,8 @@ body {
 }
 
 .bodyText{
-	color:#2b264f;background-color:white;
+	color:#2b264f;
+	background-color:white;
 	text-align:center;
 	padding:15px 15px;
 	text-align: justify; 
@@ -86,23 +75,48 @@ body {
 }
 
 .bestsellerImg{
+	background-image: url("../images/quickly_drinks_2.jpeg");
+	min-height: 400px;
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
 }
 
 .drinkImg{
-
+	background-image: url("../images/quickly_drinks_1.jpg");
+	min-height: 400px;
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
 }
 
 .foodImg{
-
+	background-image: url("../images/quickly_food_edit.jpg");
+	min-height: 400px;
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
 }
 
 .dessertImg{
-
+	background-image: url("../images/quickly_dessert_edit.jpg");
+	min-height: 400px;
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
 }
 
-.h1{
-	text-align: justify;
-	font-size: 14px;
+.menuItem{
+	font-family: scriptorama-tradeshow-jf, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color:#FB9420;
+	padding-left: 20px;
+	paddin-right: 20px;
 }
 
 
@@ -169,7 +183,7 @@ body {
 .mainNav a:hover {
 	background-color: #2b264f;
 	color: white;
-	height: 60px;
+	height: 54px;
 }
 
 .mainNav .icon {
@@ -177,7 +191,7 @@ body {
 	color: #2b264f;
 	background-color: #F0EFE9;
 	position: left;
-	height: 60px;
+	height: 54px;
 }
 
 .mainImg, .menuImg, .locationImg, .aboutImg, .overlay {
@@ -196,6 +210,12 @@ body {
   width: 100%;
 }
 
+.menuItem{
+	font-family: scriptorama-tradeshow-jf, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: 
+}
 
 .menuImg:hover .overlay {
 	opacity: .75;
@@ -212,7 +232,8 @@ body {
 	.mainNav.responsive {position: relative;}
 	.mainNav.responsive .icon {position: absolute;
 		top: 0;
-		left: 0;}
+		left: 0;
+		height: 54px;}
 
 	.mainNav.responsive a{
 		display: block;
@@ -225,7 +246,7 @@ body {
 	.mainNav a:hover {
 	background-color: #2b264f;
 	color: white;
-	height: 60px;
+	height: 54px;
 }
 
 @media only screen and (max-width: 600px){
