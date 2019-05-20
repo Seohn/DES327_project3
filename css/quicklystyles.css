@@ -1,7 +1,7 @@
 * {
-	font-family: p22 Underground;
 	box-sizing: border-box;
 	text-decoration: none;
+	font-family: p22 underground;
 }
 
 body {
@@ -10,12 +10,20 @@ body {
 
 h1{
 	font-family: scriptorama-tradeshow-jf, sans-serif;
-	font-weight: 400;
 	font-style: normal;
+	font-weight: 400;
+}
+
+.button {
+	height:auto;
+	width: 100%;
+	background-position: cover;
+	opacity: 0;
+	font-size: 800px
 }
 
 .divBody{
-	position:relative;
+	position: relative;
 
 }
 
@@ -23,9 +31,9 @@ h1{
 	color:#2b264f;
 	background-color:white;
 	text-align:center;
-	padding:15px 15px;
 	text-align: justify; 
 	letter-spacing: .5px;
+	padding: 15px 15px;
 }
 
 
@@ -37,12 +45,13 @@ h1{
 	bottom: 0;
 	right: 0;
 	left: 0;
-	opacity: .50;
+	opacity: 0;
 	width: 100%;
 	height: 800px;
 	background-color: #F0EFE9;
 	transition:.5s ease;
 	padding-bottom: 400px;
+	background-image: url(../images/headers/quickly_text-04.png);
 }
 
 .menuImg{
@@ -73,6 +82,27 @@ h1{
 	background-size: cover;
 	width: 100%;
 }
+.bestsellers{
+	background-image: url("../images/quickly_drinks_2.jpeg");
+	min-height: 400px;
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%
+}
+
+.drinks{
+
+}
+
+.food{
+
+}
+
+.dessert{
+
+}
+
 
 .bestsellerImg{
 	background-image: url("../images/quickly_drinks_2.jpeg");
@@ -80,7 +110,7 @@ h1{
 	background-position: right center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 100%;
+	width: 100%
 }
 
 .drinkImg{
@@ -109,7 +139,6 @@ h1{
 	background-size: cover;
 	width: 100%;
 }
-
 
 .text{
   top: 50%;
@@ -158,8 +187,9 @@ h1{
 	top: 0px;
 	z-index: 1000;
 	opacity: .9;
-	height: auto;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+	height: 54px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	font-family: Futura;
 }
 
 .mainNav *{
@@ -203,13 +233,13 @@ h1{
 
 .menuItem{
 	font-family: scriptorama-tradeshow-jf, sans-serif;
-	font-style: normal;
 	font-weight: 400;
-	color: #FB9420;
+	font-style: normal;
+	color:#FB9420;
 	padding-right: 35px;
 }
 
-.menuItem:hover {
+.menuItem:hover{
 	color: #2c16d4;
 }
 
